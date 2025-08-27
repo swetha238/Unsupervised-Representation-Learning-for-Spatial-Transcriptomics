@@ -87,9 +87,6 @@ The experiments require the pre-trained CellPLM model checkpoint:
 ### Dataset Links
 All datasets required for running the experiments are available from the official [CellPLM GitHub repository](https://github.com/OmicsML/CellPLM/tree/main/data).
 
-**Additional Direct Links**:
-MERFISH: http://sdmbench.drai.cn/
-DLPFC: http://sdmbench.drai.cn/ (Datasets named as 10x visium)
 
 **Required Files**:
 - `HumanLungCancerPatient2_filtered_ensg.h5ad`, `GSE131907_Lung_ensg.h5ad` (Human lung cancer data)
@@ -98,6 +95,9 @@ DLPFC: http://sdmbench.drai.cn/ (Datasets named as 10x visium)
 - `demo_train.h5ad`, `demo_test.h5ad` (Human pancreas single-cell data)
 - `c_data.h5ad`, `filtered_ms_adata.h5ad` (Multiple sclerosis tissue data)
 
+**Additional Direct Links**:
+MERFISH: http://sdmbench.drai.cn/
+DLPFC: http://sdmbench.drai.cn/ (Datasets named as 10x visium)
 
 
 ## Experiment Scripts
